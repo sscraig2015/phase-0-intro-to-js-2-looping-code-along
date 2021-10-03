@@ -22,9 +22,17 @@ function writeCards(names, event) {
     
     return arr1;
 }
-function countDown (number) {
+/*function countDown (number) {
     for (let i = 0; i <= number; i++) {
         console.log(i);
+    }
+}*/
+
+function countDown (number) {
+    let i = 0;
+    while (i <= number) {
+        console.log(i);
+        i++;
     }
 }
 
